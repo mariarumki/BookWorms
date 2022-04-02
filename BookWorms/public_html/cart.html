@@ -1,0 +1,214 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport"  content="width=device-width ,initial-scale=1.0">
+        <link rel="stylesheet" href="CSS/style.css">
+        <title>BookWorms' Book Shop</title>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        
+    </head>
+    <body>
+               <!------ Header ------->
+               
+        <div class="header">
+        <div class="container">
+            <div class="navbar">
+            <div class="logo">
+                <img src="images/LOGO.jpg" width="165">
+            </div>
+            <nav>
+                <ul id="MenuItems">
+                   <li><a href="index.html">Home</a></li>
+                     <li><a href="books.html">All Books</a></li>
+                     <li><a href="kids.html">KIDs</a></li>
+                     <li><a href="pdf.html">PDF</a></li>
+                     <li><a href="about.html">About</a></li>
+                     <li><a href="accounts.html">Account</a></li>
+                     
+                </ul>
+          
+             </nav>
+                
+                <a href="cart.html"><img src="images/cart.jpg" width="30px" height="30px"></a>
+                <a class="cart" href="cart.html"><span>0</span></a>
+                <img src="images/menubar.jpg" class="menu-icon" onclick="menutoggle()">
+               
+             </div>
+            
+            <!------ start here------->
+            <div class="product-container">
+                <div class="product-header">
+                    <h3 class="product-title">Book</h3>
+                    <h3 class="price">Price</h3>
+                    <h3 class="quantity">Quantity</h3>
+                    <h3 class="total">Total</h3>
+                    
+                </div>
+            </div>
+            <div class="product-container">
+                <div class="products">
+                    <p class="product-title">Moner moto mon</p>
+                    <p class="price">154.00$</p>
+                    <p class="quantity">1</p>
+                    <p class="total"> 154.00$</p>
+                    
+                    
+                </div>
+            </div>
+            <div class="product-container">
+                 <div class="products">
+                    <p class="product-title">Badshah Namdar</p>
+                    <p class="price">200.00$</p>
+                    <p class="quantity">2</p>
+                    <p class="total"> 400.00$</p>
+                    
+                    
+                </div>
+            </div>
+            <div class="product-container">    
+                <div class="products">
+                    <h3 class="product-title">Total</h3>
+                    <p class="price"></p>
+                    <p class="quantity"></p>
+                    <h3 class="total">554.00$</h3>
+                    
+                </div>
+            </div>    
+                
+            </div>
+            <a href="accounts.html" class="btn2">Order Now!! &#8594;</a>
+            
+            
+           
+            
+           
+         
+        </div>
+        </div>
+        
+               
+          
+        <!------brands------>
+        <div class="brands">
+            <div class="small-container">
+                <div class="row">
+                    <div class="col-5">
+                        <img src="images/sp6.jpg">
+                        
+                    </div>
+                    
+                    <div class="col-5">
+                        <img src="images/sponsor1.jpg">
+                        
+                    </div>
+                    
+                    <div class="col-5">
+                        <img src="images/sponsor2.jpg">
+                        
+                    </div>
+                    
+                    <div class="col-5">
+                        <img src="images/sponsor3.jpg">
+                        
+                    </div>
+                    
+                    <div class="col-5">
+                        <img src="images/sponsor4.jpg">
+                        
+                    </div>
+                    
+                </div>
+                
+            </div>
+            
+        </div>
+        
+        
+        
+        <div class="footer">
+            
+            <div class="container">
+                <div class="row">
+                    <div class="footer-col-1">
+                        <h3>Download Our App</h3>
+                        <div class="app-logo">
+                            <img src="images/play.jpg">
+                            <img src="images/apple.jpg">
+                            
+                        </div>
+                       
+                      
+                       
+                        
+                    </div>
+                    
+                     <div class="footer-col-2">
+                         <br>
+                         <img src="images/LOGO.jpg">
+                        <p>Books for Better Future.</p>
+                        
+                    </div>
+                     <div class="footer-col-3">
+                        <h3>Useful Links</h3>
+                        <ul>
+                            <li>Coupons</li>
+                            <li>Blog Post</li>
+                            <li>Return Policy</li>
+                       
+                        </ul>
+                        
+                    </div>
+                     <div class="footer-col-4">
+                        <h3>Follow Us</h3>
+                        <ul>
+                            <li>Facebook</li>
+                            <li>Twitter</li>
+                            <li>Youtube<li>
+                       
+                        </ul>
+                        
+                    </div>
+                    
+                    
+                    
+                </div>
+                
+            </div>
+                
+                <h4>
+                    <font face="Lato" size="4.5">
+                    Copyright 2021 Â© Afsara Rahman Shuchita , Maria Rahaman Rumki** All rights reserved.
+                    </font>
+                
+                </h4>
+            </div>
+
+        
+        
+            
+            
+          <!----- js for menutoggle----->  
+        <script>
+            var MenuItems=document.getElementById("MenuItems");
+            MenuItems.style.maxHeight="0px";
+            function menutoggle(){
+                if(MenuItems.style.maxHeight=="0px")
+                {
+                    MenuItems.style.maxHeight="250px";
+                }
+                else{
+                    MenuItems.style.maxHeight="0px";
+                }
+            }
+        </script>
+            
+            
+            
+         <script src="main.js"> </script>
+            
+      
+    </body>
+</html>

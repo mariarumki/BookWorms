@@ -1,0 +1,368 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport"  content="width=device-width ,initial-scale=1.0">
+        <link rel="stylesheet" href="CSS/style.css">
+        <title>All Books - Bookworm</title>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        
+    </head>
+    <body>
+               <!------ Header ------->
+               
+        <div class="header">
+        <div class="container">
+            <div class="navbar">
+            <div class="logo">
+                <img src="images/LOGO.jpg" width="165">
+            </div>
+            <nav>
+                <ul id="MenuItems">
+                   <li><a href="index.html">Home</a></li>
+                     <li><a href="books.html">All Books</a></li>
+                     <li><a href="kids.html">KIDs</a></li>
+                     <li><a href="pdf.html">PDF</a></li>
+                     <li><a href="about.html">About</a></li>
+                     <li><a href="accounts.html">Account</a></li>
+                     
+                </ul>
+          
+             </nav>
+                
+               <a href="cart.html"><img src="images/cart.jpg" width="30px" height="30px"></a>
+               <a class="cart" href="cart.html"><span>0</span></a>
+                <img src="images/menubar.jpg" class="menu-icon" onclick="menutoggle()">
+               
+             </div>
+            
+        
+        </div>
+         
+        </div>
+
+               
+                <!-------all products-------->
+                
+         <div class="small-container">
+            <div class="row row-2" >
+                <h2>All Products</h2>
+                <select>
+                    <option>Default Sorting</option>
+                    <option>Sort by Price</option>
+                    <option>Sort by Popularity</option>
+                    <option>Sort by Rating</option>
+                    <option>Sort by Sale</option>
+                </select>
+                   
+            </div>
+           
+            <div class="row">
+                <div class="col-4">
+                    <a href="productdetails.html"><img src="images/sm2.jpg"></a>
+                    <h4>Moner moto mon</h4>
+                    <div class="rating">
+                       <span class="fa fa-star checked"></span>
+                       <span class="fa fa-star checked"></span>
+                       <span class="fa fa-star checked"></span>
+                       <span class="fa fa-star"></span>
+                       <span class="fa fa-star"></span>                   
+                    </div>
+                    <p>$154.00</p>
+                
+                
+            </div>
+                
+                
+                 <div class="col-4">
+                     <a href="details2.html"><img src="images/sm1.jpg"></a>
+                    <h4>Ratnagarbha</h4>
+                    <div class="rating">
+                       <span class="fa fa-star checked"></span>
+                       <span class="fa fa-star checked"></span>
+                       <span class="fa fa-star checked"></span>
+                       <span class="fa fa-star"></span>
+                       <span class="fa fa-star"></span>                   
+                    </div>
+                    <p>$200.00</p>
+                
+                 
+            </div>
+                
+                
+                
+                 <div class="col-4">
+                    <img src="images/kazi1.jpg">
+                    <h4>Sheuly Mala</h4>
+                    <div class="rating">
+                       <span class="fa fa-star checked"></span>
+                       <span class="fa fa-star checked"></span>
+                       <span class="fa fa-star checked"></span>
+                       <span class="fa fa-star checked"></span>
+                       <span class="fa fa-star"></span>                   
+                    </div>
+                    <p>$130.00</p>
+                
+                
+            </div>
+                
+                
+                
+                 <div class="col-4">
+                    <img src="images/rab1.jpg">
+                    <h4>Shanchayita</h4>
+                    <div class="rating">
+                       <span class="fa fa-star checked"></span>
+                       <span class="fa fa-star checked"></span>
+                       <span class="fa fa-star checked"></span>
+                       <span class="fa fa-star checked"></span>
+                       <span class="fa fa-star"></span>                   
+                    </div>
+                    <p>$275.00</p>
+                
+                
+            </div>
+                
+                  
+            <div class="row">
+                <div class="col-4">
+                    <img src="images/ha2.jpg">
+                    <h4>Darjar opare</h4>
+                    <div class="rating">
+                       <span class="fa fa-star checked"></span>
+                       <span class="fa fa-star checked"></span>
+                       <span class="fa fa-star"></span>
+                       <span class="fa fa-star"></span>
+                       <span class="fa fa-star"></span>                   
+                    </div>
+                    <p>$210.00</p>
+                
+                
+            </div>
+                
+                
+                 <div class="col-4">
+                    <img src="images/kazi2.jpg">
+                    <h4>Sanchita</h4>
+                    <div class="rating">
+                       <span class="fa fa-star checked"></span>
+                       <span class="fa fa-star checked"></span>
+                       <span class="fa fa-star checked"></span>
+                       <span class="fa fa-star"></span>
+                       <span class="fa fa-star"></span>                   
+                    </div>
+                    <p>$140.25</p>
+                
+                 
+            </div>
+                
+                
+                
+                 <div class="col-4">
+                    <img src="images/rab2.jpg">
+                    <h4>GORA</h4>
+                    <div class="rating">
+                       <span class="fa fa-star checked"></span>
+                       <span class="fa fa-star checked"></span>
+                       <span class="fa fa-star"></span>
+                       <span class="fa fa-star"></span>
+                       <span class="fa fa-star"></span>                   
+                    </div>
+                    <p>$120.00</p>
+                
+                
+            </div>
+                
+                
+                
+                 <div class="col-4">
+                    <img src="images/ha3.jpg">
+                    <h4>Misir Ali Amnibash</h4>
+                    <div class="rating">
+                       <span class="fa fa-star checked"></span>
+                       <span class="fa fa-star checked"></span>
+                       <span class="fa fa-star checked"></span>
+                       <span class="fa fa-star checked"></span>
+                       <span class="fa fa-star checked"></span>                   
+                    </div>
+                    <p>$340.00</p>
+                
+                
+            </div>
+                
+                   
+            <div class="row">
+                <div class="col-4">
+                    <img src="images/ha5.jpg">
+                    <h4>Himur Modhyo dupur</h4>
+                    <div class="rating">
+                       <span class="fa fa-star checked"></span>
+                       <span class="fa fa-star checked"></span>
+                       <span class="fa fa-star checked"></span>
+                       <span class="fa fa-star"></span>
+                       <span class="fa fa-star"></span>                   
+                    </div>
+                    <p>$150.00</p>
+                
+                
+            </div>
+                
+                
+                 <div class="col-4">
+                    <img src="images/rab4.jpg">
+                    <h4>Gitanjali</h4>
+                    <div class="rating">
+                       <span class="fa fa-star checked"></span>
+                       <span class="fa fa-star checked"></span>
+                       <span class="fa fa-star checked"></span>
+                       <span class="fa fa-star checked"></span>
+                       <span class="fa fa-star"></span>                   
+                    </div>
+                    <p>$212.00</p>
+                
+                 
+            </div>
+                
+                
+                
+                 <div class="col-4">
+                    <img src="images/sm6.jpg">
+                    <h4>Satkahan</h4>
+                    <div class="rating">
+                       <span class="fa fa-star checked"></span>
+                       <span class="fa fa-star checked"></span>
+                       <span class="fa fa-star checked"></span>
+                       <span class="fa fa-star checked"></span>
+                       <span class="fa fa-star checked"></span>                   
+                    </div>
+                    <p>$200.00</p>
+                
+                
+            </div>
+                
+                
+                
+                 <div class="col-4">
+                    <img src="images/ha12.jpg">
+                    <h4>Kichu shoisob</h4>
+                    <div class="rating">
+                       <span class="fa fa-star checked"></span>
+                       <span class="fa fa-star checked"></span>
+                       <span class="fa fa-star checked"></span>
+                       <span class="fa fa-star"></span>
+                       <span class="fa fa-star"></span>                   
+                    </div>
+                    <p>$150.00</p>
+                
+                
+            </div>
+                
+            </div>
+                
+            </div>
+            <div class="page-btn">
+                
+                <span><a href="books.html">1</a></span>
+                <span><a href="books2.html">2</a></span>
+                <span>3</span>
+                <span>4</span>
+                <span>5</span>
+                <span>6</span>
+                <span>&#8594;</span>
+            </div>
+        </div>
+      
+     
+      
+         </div>    
+            
+      <!-------footer-------->
+        
+        
+        
+        <div class="footer">
+            
+            <div class="container">
+                <div class="row">
+                    <div class="footer-col-1">
+                        <h3>Download Our App</h3>
+                        <div class="app-logo">
+                            <img src="images/play.jpg">
+                            <img src="images/apple.jpg">
+                            
+                        </div>
+                       
+                      
+                       
+                        
+                    </div>
+                    
+                     <div class="footer-col-2">
+                         <br>
+                         <img src="images/LOGO.jpg">
+                        <p>Books for Better Future.</p>
+                        
+                    </div>
+                     <div class="footer-col-3">
+                        <h3>Useful Links</h3>
+                        <ul>
+                            <li>Coupons</li>
+                            <li>Blog Post</li>
+                            <li>Return Policy</li>
+                       
+                        </ul>
+                        
+                    </div>
+                     <div class="footer-col-4">
+                        <h3>Follow Us</h3>
+                        <ul>
+                            <li>Facebook</li>
+                            <li>Twitter</li>
+                            <li>Youtube<li>
+                       
+                        </ul>
+                        
+                    </div>
+                    
+                    
+                    
+                </div>
+                
+            </div>
+                
+                <h4>
+                    <font face="Lato" size="4.5">
+                    Copyright 2021 © Afsara Rahman Shuchita , Maria Rahaman Rumki** All rights reserved.
+                    </font>
+                
+                </h4>
+            </div>
+
+        
+         </div>
+            
+            
+          <!----- js for menutoggle----->  
+        <script>
+            var MenuItems=document.getElementById("MenuItems");
+            MenuItems.style.maxHeight="0px";
+            function menutoggle(){
+                if(MenuItems.style.maxHeight=="0px")
+                {
+                    MenuItems.style.maxHeight="200px";
+                }
+                else{
+                    MenuItems.style.maxHeight="0px";
+                }
+            }
+        </script>
+            
+            
+             <script src="main.js"> </script>
+            
+            
+      
+    </body>
+</html>

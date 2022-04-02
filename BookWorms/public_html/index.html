@@ -1,0 +1,507 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport"  content="width=device-width ,initial-scale=1.0">
+        <link rel="stylesheet" href="CSS/style.css">
+        <title>BookWorms' Book Shop</title>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        
+    </head>
+    <body>
+               <!------ Header ------->
+               
+        <div class="header">
+        <div class="container">
+            <div class="navbar">
+            <div class="logo">
+                <img src="images/LOGO.jpg" width="165">
+            </div>
+            <nav>
+                <ul id="MenuItems">
+                    <li><a href="index.html">Home</a></li>
+                     <li><a href="books.html">All Books</a></li>
+                     <li><a href="kids.html">KIDs</a></li>
+                     <li><a href="pdf.html">PDF</a></li>
+                     <li><a href="about.html">About</a></li>
+                     <li><a href="accounts.html">Account</a></li>
+                     
+                </ul>
+          
+             </nav>
+                
+                <a href="cart.html"><img src="images/cart.jpg" width="30px" height="30px"></a>
+                 <a class="cart" href="cart.html"><span>0</span></a>
+                <img src="images/menubar.jpg" class="menu-icon" onclick="menutoggle()">
+                 
+             </div>
+            
+            <div class="row">
+                <div class="col-2">
+                    <h1>“If one cannot enjoy reading a book over and over again, there is no use in reading it at all.” </h1>
+                    <p> ― Oscar Wilde </p>
+                    <br>
+                    <br>
+                    <a href="books.html" class="btn">Get Started! &#8594;</a>
+                    
+                </div>
+                
+                 <div class="col-2">
+                     <img src="images/home1.jpg">
+                    
+                </div>
+            </div>
+            
+            
+            
+         
+        </div>
+        </div>
+        
+       <!------ featured categories------->
+       
+       <div class="categories">
+            <h2 class="title">Featured Categories</h2>
+           <div class="small-container">
+               <div class="row">
+                    <div class="col-3">
+                       <img src="images/ksc.jpg">
+                       <h4>KIDs Section</h4>
+                    </div>
+                   <div class="col-3">
+                       <img src="images/alls.jpg">
+                       <h4>All Books</h4>
+                   </div>
+                   <div class="col-3">
+                       <img src="images/pdf.jpg">
+                       <h4>PDF Section</h4>
+                   </div>
+               
+              </div>  
+          </div>
+          
+           
+       </div>
+       
+        <!------ featured products------->
+        
+        <div class="small-container">
+            <h2 class="title">Featured Books</h2>
+            <div class="row">
+                <div class="col-4">
+                    <img src="images/ha5.jpg">
+                    <h4>Humayun Ahamed</h4>
+                    <div class="rating">
+                       <span class="fa fa-star checked"></span>
+                       <span class="fa fa-star checked"></span>
+                       <span class="fa fa-star checked"></span>
+                       <span class="fa fa-star"></span>
+                       <span class="fa fa-star"></span>                   
+                    </div>
+                    <p>$150.00</p>
+                
+                
+            </div>
+                
+                
+                 <div class="col-4">
+                    <img src="images/rab4.jpg">
+                    <h4>Rabindra Nath Tagore</h4>
+                    <div class="rating">
+                       <span class="fa fa-star checked"></span>
+                       <span class="fa fa-star checked"></span>
+                       <span class="fa fa-star checked"></span>
+                       <span class="fa fa-star checked"></span>
+                       <span class="fa fa-star"></span>                   
+                    </div>
+                    <p>$100.25</p>
+                
+                 
+            </div>
+                
+                
+                
+                 <div class="col-4">
+                    <img src="images/sm6.jpg">
+                    <h4>Samaresh Majumdar</h4>
+                    <div class="rating">
+                       <span class="fa fa-star checked"></span>
+                       <span class="fa fa-star checked"></span>
+                       <span class="fa fa-star"></span>
+                       <span class="fa fa-star"></span>
+                       <span class="fa fa-star"></span>                   
+                    </div>
+                    <p>$120.00</p>
+                
+                
+            </div>
+                
+                
+                
+                 <div class="col-4">
+                    <img src="images/ha12.jpg">
+                    <h4>Humayun Ahamed</h4>
+                    <div class="rating">
+                       <span class="fa fa-star checked"></span>
+                       <span class="fa fa-star checked"></span>
+                       <span class="fa fa-star checked"></span>
+                       <span class="fa fa-star checked"></span>
+                       <span class="fa fa-star"></span>                   
+                    </div>
+                    <p>$175.00</p>
+                
+                
+            </div>
+            
+            
+        </div>
+             <h2 class="title">Newly Arrived</h2>
+             
+             <div class="row">
+                <div class="col-4">
+                    <img src="images/lst2.jpg">
+                    <h4>Antik Mahmud</h4>
+                    <div class="rating">
+                       <span class="fa fa-star checked"></span>
+                       <span class="fa fa-star checked"></span>
+                       <span class="fa fa-star checked"></span>
+                       <span class="fa fa-star"></span>
+                       <span class="fa fa-star"></span>                   
+                    </div>
+                    <p>$215.00</p>
+                
+                
+            </div>
+                
+                
+                 <div class="col-4">
+                    <img src="images/rab6.jpg">
+                    <h4>Rabindra Nath Tagore</h4>
+                    <div class="rating">
+                       <span class="fa fa-star checked"></span>
+                       <span class="fa fa-star checked"></span>
+                       <span class="fa fa-star checked"></span>
+                       <span class="fa fa-star"></span>
+                       <span class="fa fa-star"></span>                   
+                    </div>
+                    <p>$100.25</p>
+                
+                
+            </div>
+                
+                
+                
+                 <div class="col-4">
+                    <img src="images/lst1.jpg">
+                    <h4>Ayman Sadiqe</h4>
+                    <div class="rating">
+                       <span class="fa fa-star checked"></span>
+                       <span class="fa fa-star checked"></span>
+                       <span class="fa fa-star"></span>
+                       <span class="fa fa-star"></span>
+                       <span class="fa fa-star"></span>                   
+                    </div>
+                    <p>$250.00</p>
+                
+                
+            </div>
+                
+                
+                
+                 <div class="col-4">
+                    <img src="images/ha7.jpg">
+                    <h4>Humayun Ahamed</h4>
+                    <div class="rating">
+                       <span class="fa fa-star checked"></span>
+                       <span class="fa fa-star checked"></span>
+                       <span class="fa fa-star checked"></span>
+                       <span class="fa fa-star checked"></span>
+                       <span class="fa fa-star checked"></span>                   
+                    </div>
+                    <p>$675.00</p>
+                
+                
+            </div>
+            
+            
+        </div>
+             
+              <div class="row">
+                <div class="col-4">
+                    <img src="images/ha14.jpg">
+                    <h4>Humayun Ahmed</h4>
+                    <div class="rating">
+                       <span class="fa fa-star checked"></span>
+                       <span class="fa fa-star checked"></span>
+                       <span class="fa fa-star "></span>
+                       <span class="fa fa-star"></span>
+                       <span class="fa fa-star"></span>                   
+                    </div>
+                    <p>$215.00</p>
+                
+                
+            </div>
+                
+                
+                 <div class="col-4">
+                    <img src="images/sm1.jpg">
+                    <h4>Samaresh Majumdar</h4>
+                    <div class="rating">
+                       <span class="fa fa-star checked"></span>
+                       <span class="fa fa-star checked"></span>
+                       <span class="fa fa-star checked"></span>
+                       <span class="fa fa-star"></span>
+                       <span class="fa fa-star"></span>                   
+                    </div>
+                    <p>$100.00</p>
+                
+                
+            </div>
+                
+                
+                
+                 <div class="col-4">
+                    <img src="images/kazi6.jpg">
+                    <h4>Kazi Nazrul Islam</h4>
+                    <div class="rating">
+                       <span class="fa fa-star checked"></span>
+                       <span class="fa fa-star checked"></span>
+                       <span class="fa fa-star checked"></span>
+                       <span class="fa fa-star checked"></span>
+                       <span class="fa fa-star"></span>                   
+                    </div>
+                    <p>$350.00</p>
+                
+                
+            </div>
+                
+                
+                
+                 <div class="col-4">
+                    <img src="images/kazi5.jpg">
+                    <h4>Humayun Ahamed</h4>
+                    <div class="rating">
+                       <span class="fa fa-star checked"></span>
+                       <span class="fa fa-star checked"></span>
+                       <span class="fa fa-star checked"></span>
+                       <span class="fa fa-star "></span>
+                       <span class="fa fa-star"></span>                   
+                    </div>
+                    <p>$355.00</p>
+                
+                
+            </div>
+            
+            
+        </div>   
+    </div>
+        
+      <!--------offer------> 
+      
+      <div class="offer">
+          <div class="small-container">
+              <div class="row">
+                  <div class="col-2">
+                      <p>Exclusively Available on <bold>bookworm!!!</bold></p>
+                      <br>
+                      <h1>The Hobbit</h1>
+                      <h3>-by J.R.R. Tolkien</h3>
+                      <br>
+                      <small>An all time best seller children's fantasy novel<br>which is set within Tolkien's fictional universe and follows the quest of<br> home-loving Bilbo Baggins, the titular hobbit<br> to win a share of the treasure guarded by Smaug the dragon. </small>
+                      <br> <br>
+                      <a href="" class="btn">Buy Now!! &#8594;</a>
+                      
+                  </div>
+                   <div class="col-2" align="center">
+                      <img src="images/ex.jpg" class="offer-img">
+                      
+                  </div>
+                  
+              </div>
+              
+              
+          </div>
+          
+      </div>
+      
+            <!--------testimonial------> 
+            
+            
+            <div class="testimonial"> 
+                <div class="small-container">
+                    <div class="row">
+                        <div class="col-3">
+                            
+                            <small>"Great work guys, good books with good quality."</small>
+                             <div class="rating">
+                                 <span class="fa fa-star checked"></span>
+                                  <span class="fa fa-star checked"></span>
+                                  <span class="fa fa-star checked"></span>
+                                  <span class="fa fa-star checked"></span>
+                                  <span class="fa fa-star checked"></span>                   
+                              </div>
+                            <img src="images/p1.jpg">
+                            <h3>Smita Haque</h3>
+                        </div>
+                        
+                        <div class="col-3">
+                            
+                            <small>"I love your KIDS section, the books are so colorful."</small>
+                             <div class="rating">
+                                 <span class="fa fa-star checked"></span>
+                                  <span class="fa fa-star checked"></span>
+                                  <span class="fa fa-star checked"></span>
+                                  <span class="fa fa-star checked"></span>
+                                  <span class="fa fa-star checked"></span>                   
+                              </div>
+                            <img src="images/pc.jpg">
+                            <h3>Ahanaf Hossain</h3>
+                        </div>
+                        
+                          <div class="col-3">
+                            
+                            <small>"Excellent service, Hope to buy more. Keep it up. "</small>
+                             <div class="rating">
+                                 <span class="fa fa-star checked"></span>
+                                  <span class="fa fa-star checked"></span>
+                                  <span class="fa fa-star checked"></span>
+                                  <span class="fa fa-star checked"></span>
+                                  <span class="fa fa-star checked"></span>                   
+                              </div>
+                            <img src="images/pm.jpg">
+                            <h3>Kabir Uddin</h3>
+                        </div>
+                        
+                        
+                        
+                      
+                        
+                    </div>
+                    
+                </div>
+            
+            </div>
+            
+        <!------brands------>
+        <div class="brands">
+            <div class="small-container">
+                <div class="row">
+                    <div class="col-5">
+                        <img src="images/sp6.jpg">
+                        
+                    </div>
+                    
+                    <div class="col-5">
+                        <img src="images/sponsor1.jpg">
+                        
+                    </div>
+                    
+                    <div class="col-5">
+                        <img src="images/sponsor2.jpg">
+                        
+                    </div>
+                    
+                    <div class="col-5">
+                        <img src="images/sponsor3.jpg">
+                        
+                    </div>
+                    
+                    <div class="col-5">
+                        <img src="images/sponsor4.jpg">
+                        
+                    </div>
+                    
+                </div>
+                
+            </div>
+            
+        </div>
+        
+        
+        
+        <div class="footer">
+            
+            <div class="container">
+                <div class="row">
+                    <div class="footer-col-1">
+                        <h3>Download Our App</h3>
+                        <div class="app-logo">
+                            <img src="images/play.jpg">
+                            <img src="images/apple.jpg">
+                            
+                        </div>
+                       
+                      
+                       
+                        
+                    </div>
+                    
+                     <div class="footer-col-2">
+                         <br>
+                         <img src="images/LOGO.jpg">
+                        <p>Books for Better Future.</p>
+                        
+                    </div>
+                     <div class="footer-col-3">
+                        <h3>Useful Links</h3>
+                        <ul>
+                            <li>Coupons</li>
+                            <li>Blog Post</li>
+                            <li>Return Policy</li>
+                       
+                        </ul>
+                        
+                    </div>
+                     <div class="footer-col-4">
+                        <h3>Follow Us</h3>
+                        <ul>
+                            <li>Facebook</li>
+                            <li>Twitter</li>
+                            <li>Youtube<li>
+                       
+                        </ul>
+                        
+                    </div>
+                    
+                    
+                    
+                </div>
+                
+            </div>
+                
+                <h4>
+                    <font face="Lato" size="4.5">
+                    Copyright 2021 © Afsara Rahman Shuchita , Maria Rahaman Rumki** All rights reserved.
+                    </font>
+                
+                </h4>
+            </div>
+
+        
+        
+            
+            
+          <!----- js for menutoggle----->  
+        <script>
+            var MenuItems=document.getElementById("MenuItems");
+            MenuItems.style.maxHeight="0px";
+            function menutoggle(){
+                if(MenuItems.style.maxHeight=="0px")
+                {
+                    MenuItems.style.maxHeight="250px";
+                }
+                else{
+                    MenuItems.style.maxHeight="0px";
+                }
+            }
+        </script>
+            
+            
+             <script src="main.js"> </script>
+            
+            
+      
+    </body>
+</html>
